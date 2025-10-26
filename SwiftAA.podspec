@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "SwiftAA"
-  s.version      = "3.0.0"
+  s.version      = "2.5.0"
   s.summary      = "The most comprehensive and accurate collection of astronomical algorithms in Swift."
 
   s.description  = <<-DESC
@@ -30,6 +30,6 @@ more covered by Unit Tests, in order to become the most reliable source of astro
   s.swift_version = "5"
 
   s.source_files  = "Sources", "Sources/SwiftAA/*.swift"
-  s.dependency 'AABridge', '~> 3.0.0'
+  s.dependency 'AABridge', '~> 2.5.0'
 
 end
